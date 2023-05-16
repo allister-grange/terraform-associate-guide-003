@@ -1,4 +1,4 @@
-# Spaced Repetition (Anki) Cards
+# Understanding IaC - Spaced Repetition (Anki) Cards
 
 What is Infrastructure as Code (IaC)? The practice of managing and provisioning infrastructure resources using code
 

@@ -25,6 +25,8 @@ I am following along closely with the **Exam objectives** found [here](https://w
 
 For each point under a topic I will make a drop down question, along with sub questions so that the topic can be learnt off of my notes. You can then take a look into the `cards.md` file to build up your spaced repetition deck off of the notes. 
 
+Please bear in mind that in the notes I am directly studying towards the **exam objectives** so that I can most efficiently pass the exam. These notes are not exhaustive and do not properly cover the topics/headings that may be associated with them; they are a direct means of passing the Terraform Associate Certification. As such, you may need a basic understanding of Terraform before starting the study guide.
+
 ## Motivation
 
 I want to [study in public](). My motivation is twofold. Firstly, I believe I will be more fastidious in my writing if the results of my studying are out there in the open, and secondly I hope that this document can help somebody else wanting to pass the Terraform exam relatively quickly.
