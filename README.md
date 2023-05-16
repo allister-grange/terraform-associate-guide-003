@@ -6,7 +6,6 @@ A guide for studying towards your Terraform Associate Certification (003) ðŸ“š ð
 
 - [Study guide](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-study-003)
 - [Exam outline](https://www.hashicorp.com/certification/terraform-associate)
-- []
 
 ## Format
 
