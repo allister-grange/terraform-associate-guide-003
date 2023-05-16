@@ -1,4 +1,4 @@
-# Understanding IaC
+# The Purpose of Terraform
 
 
 

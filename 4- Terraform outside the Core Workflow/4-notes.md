@@ -1,4 +1,4 @@
-# Understanding IaC
+# Terraform outside the Core Workflow
 
 
 

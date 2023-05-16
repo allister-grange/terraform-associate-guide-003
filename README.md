@@ -10,26 +10,83 @@ A guide for studying towards your Terraform Associate Certification (003) ðŸ“š ð
 
 ## Format
 
+### Structure
+
 Within each folder there will be a few different resources
 
 (insert tree diagram here)
 
-1-notes.md <- cliff notes and questions from the Terraform resource
-1-code.md <- coding exercises and examples
-1-cards.md <- personal flashcards that will go into my [Anki](), some people find these personal and don't share them, as they are very tailored to the individual who made them, so take that as you will
+`1-notes.md` <- cliff notes and questions from the Terraform resource  
+`1-code.md` <- coding exercises and examples  
+`1-cards.md` <- personal flashcards that will go into my [Anki](), some people find these personal and don't share them, as they are very tailored to the individual who made them, so take that as you will
 
-## Drop-downs
+### How the notes are organized
 
-How to build drop downs in Markdown  
+I am following along closely with the **Exam objectives** found [here](https://www.hashicorp.com/certification/terraform-associate). This way you're not wasting time learning what isn't included on the exams.
 
-```html
-<details>
-<summary>Title</summary>
-
-Your content
-</details>
-```
+For each point under a topic I will make a drop down question, along with sub questions so that the topic can be learnt off of my notes. You can then take a look into the `cards.md` file to build up your spaced repetition deck off of the notes. 
 
 ## Motivation
 
-I want to [study in public](). My motivation is twofold. Firstly, I believe I will be more fastidious in my writing if the results of my studying is out there in the open, and secondly I hope that this document can help somebody else wanting to pass the Terraform exam relatively quickly.
+I want to [study in public](). My motivation is twofold. Firstly, I believe I will be more fastidious in my writing if the results of my studying are out there in the open, and secondly I hope that this document can help somebody else wanting to pass the Terraform exam relatively quickly.
+
+
+## [Exam Objectives](https://www.hashicorp.com/certification/terraform-associate)
+
+There is an summary drop down of each exam objective inside every `note.md` file for the corresponding topic.
+
+**1	Understand infrastructure as code (IaC) concepts**  
+- 1a)	Explain what IaC is
+- 1b)	Describe advantages of IaC patterns
+
+**2	Understand the purpose of Terraform (vs other IaC)**
+- 2a)	Explain multi-cloud and provider-agnostic benefits
+- 2b)	Explain the benefits of state
+
+**3	Understand Terraform basics**
+- 3a)	Install and version Terraform providers
+- 3b)	Describe plugin-based architecture
+- 3c)	Write Terraform configuration using multiple providers
+- 3d)	Describe how Terraform finds and fetches providers
+
+**4	Use Terraform outside of core workflow**
+- 4a)	Describe when to use terraform import to import existing infrastructure into your Terraform state
+- 4b)	Use terraform state to view Terraform state
+- 4c)	Describe when to enable verbose logging and what the outcome/value is
+
+**5	Interact with Terraform modules**
+- 5a)	Contrast and use different module source options including the public Terraform Module Registry
+- 5b)	Interact with module inputs and outputs
+- 5c)	Describe variable scope within modules/child modules
+- 5d)	Set module version
+
+**6	Use the core Terraform workflow**
+- 6a)	Describe Terraform workflow ( Write -> Plan -> Create )
+- 6b)	Initialize a Terraform working directory (terraform init)
+- 6c)	Validate a Terraform configuration (terraform validate)
+- 6d)	Generate and review an execution plan for Terraform (terraform plan)
+- 6e)	Execute changes to infrastructure with Terraform (terraform apply)
+- 6f)	Destroy Terraform managed infrastructure (terraform destroy)
+- 6g)	Apply formatting and style adjustments to a configuration (terraform fmt)
+
+**7	Implement and maintain state**
+- 7a)	Describe default local backend
+- 7b)	Describe state locking
+- 7c)	Handle backend and cloud integration authentication methods
+- 7d)	Differentiate remote state back end options
+- 7e)	Manage resource drift and Terraform state
+- 7f)	Describe backend block and cloud integration in configuration
+- 7g)	Understand secret management in state files
+
+**8	Read, generate, and modify configuration**
+- 8a)	Demonstrate use of variables and outputs
+- 8b)	Describe secure secret injection best practice
+- 8c)	Understand the use of collection and structural types
+- 8d)	Create and differentiate resource and data configuration
+- 8e)	Use resource addressing and resource parameters to connect resources together
+- 8f)	Use HCL and Terraform functions to write configuration
+- 8g)	Describe built-in dependency management (order of execution based)
+
+**9	Understand Terraform Cloud capabilities**
+- 9a)	Explain how Terraform Cloud helps to manage infrastructure
+- 9b)	Describe how Terraform Cloud enables collaboration and governance
