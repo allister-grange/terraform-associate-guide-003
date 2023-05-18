@@ -1,5 +1,7 @@
 # The Purpose of Terraform
 
+## Reading
+
 [What is Terraform?](https://developer.hashicorp.com/terraform/intro)  
 [Use cases](https://developer.hashicorp.com/terraform/intro/v1.1.x/use-cases)  
 [Purpose of Terraform State](https://developer.hashicorp.com/terraform/language/v1.1.x/state/purpose)
