@@ -2,7 +2,11 @@
 
 What is Infrastructure as Code (IaC)? The practice of managing and provisioning infrastructure resources using code
 
-What are the advantages of IaC patterns? Advantages of IaC patterns include automation, consistency, scalability and version control
+What are the advantages of IaC patterns? 
+{{c1::automation}} 
+{{c2::consistency}}
+{{c3::scalability}} 
+{{c4::version control}}
 
 What is the purpose of version control in IaC? It allows for tracking of infrastructure configurations over time
 
@@ -10,4 +14,4 @@ How does IaC improve collaboration among teams? Teams can work together by using
 
 How does IaC provide scalability? Through automating the provisioning and scaling of infrastructure resources 
 
-How does IaC provide consistency? By ensuring that infrastructure configurations are defined and deployed in a standardized and reproducible manner
+How does IaC provide consistency? By using infrastructure configurations that are deployed in a repeatable way
