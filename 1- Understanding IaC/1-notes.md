@@ -14,12 +14,12 @@ How do we take the process of 'ClickOps' for standing up infrastructure and codi
 
 **IaC** is a practise that enables the creation of infrastructure and services using declarative configuration files. This allows for a consistent and scalable environment that is fully automated and tracked through version control.
 
-## Exam Objectives
+## Exam Objectives / Testing
 
 <details>
 <summary>Explain what IaC is</summary>
 
-The practice of managing and provisioning infrastructure resources using code
+- The practice of managing and provisioning infrastructure resources using code
 </details>
 
 <details>

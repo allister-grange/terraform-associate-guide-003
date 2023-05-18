@@ -34,7 +34,7 @@ When your state becomes rather large, you can use the state file as a cache so t
 
 Remote state allows for people to collaborate on the same Terraform project. Terraform performs remote locking and will prevent users from running Terraform at the same time. Without state this wouldn't be possible.
 
-## Exam Objectives
+## Exam Objectives / Testing
 
 <details>
 <summary>Explain multi-cloud and provider-agnostic benefits</summary>

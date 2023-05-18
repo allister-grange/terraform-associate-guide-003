@@ -15,7 +15,7 @@
 
 ## Notes
 
-### Terraform providers
+### **Terraform providers**
 
 Providers are plugins that allow Terraform to interact with cloud providers, SaaS providers, and other APIs. Providers supply the **resource types** and **data sources** that Terraform can manage. Without providers, Terraform cannot build any infrastructure. You can think of providers as downloading the API that Terraform then interacts with to manage infrastructure.
 
@@ -91,11 +91,13 @@ An example of a source address is `registry.terraform.io/hashicorp/http`.
 
 Terraform will then download providers from this source address when `terraform init` is run. This will create a lock file to ensure that Terraform will use the same provider versions when re-running `terraform apply`.
 
-### Plugin-based architecture
+### **Plugin-based architecture**
 
 Plugins enable developers to extend Terraform by writing new plugins or compiling modified versions of existing plugins.
 
 There are two parts to Terraform: **Terraform Core** and **Terraform Plugins**. **Terraform Core** provides the entry point to `terraform` and then it enables people to build upon it with plugins.
+
+## Exam Objectives / Testing
 
 <details>
 <summary>Install and version Terraform providers</summary>
@@ -126,12 +128,12 @@ There are two parts to Terraform: **Terraform Core** and **Terraform Plugins**. 
 <details>
 <summary>Describe how Terraform finds and fetches providers</summary>
 
-**Source Addresses** are used to uniquely identity providers. They are built in three parts: `[<HOSTNAME>/]<NAMESPACE>/<TYPE>`. Terraform will then download providers from this source address when `terraform init` is run. The `hostname` determines what **registry** terraform will look in for the provider. 
+- **Source Addresses** are used to uniquely identity providers. They are built in three parts: `[<HOSTNAME>/]<NAMESPACE>/<TYPE>`. Terraform will then download providers from this source address when `terraform init` is run. The `hostname` determines what **registry** terraform will look in for the provider. 
 
 </details>
 
 <details>
 <summary>Describe plugin-based architecture</summary>
 
-Plugins enable Terraform's platform to be extended. There are two parts to Terraform: **Terraform Core** and **Terraform Plugins**. **Terraform Core** provides the entry point to `terraform` and then it enables people to build upon it with plugins.
+- Plugins enable Terraform's platform to be extended. There are two parts to Terraform: **Terraform Core** and **Terraform Plugins**. **Terraform Core** provides the entry point to `terraform` and then it enables people to build upon it with plugins.
 </details>
