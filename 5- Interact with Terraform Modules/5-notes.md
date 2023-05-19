@@ -29,49 +29,77 @@ All modules require a `source` argument, which is a pointer either to the local 
 
 You must run `terraform init` when adding, removing or modifying modules.
 
-#### **Set module version**
+#### **Setting the module version**
 
-When using public modules from a module registry, it's recommended to pass in a `version` argument into the `module` block. This is not required for local `modules`. 
+When using public modules from a module registry, it's recommended to pass in a `version` argument into the `module` block. This is not required for local modules. 
 
-#### **Accessing Module Output Values**
+#### **Accessing module output values**
 
 The resources defined inside a module are encapsulated, so the calling module cannot access them directly, instead you use *output values* to selectively export values to then be used in the calling module.
 
 To reference an output from a module block you can call it with `module.<name>.<output_value>`.
 
+#### **Using input variables**
 
+Each input variable accepted by a `module` must be declared within that `module` using a variable block:
 
-- 5a)	Contrast and use different module source options including the public Terraform Module Registry
-- 5b)	Interact with module inputs and outputs
-- 5c)	Describe variable scope within modules/child modules
-- 5d)	Set module version
+You can force validation on a variable block by using the `validation` block.
+
+```terraform
+variable "image_id" {
+  type        = string
+  description = "The id of the machine image (AMI) to use for the server."
+
+  validation {
+    condition     = length(var.image_id) > 4 && substr(var.image_id, 0, 4) == "ami-"
+    error_message = "The image_id value must be a valid AMI id, starting with \"ami-\"."
+  }
+}
+```
+
+#### **Module sources**
+
+The `source` for a module tells Terraform where to find the source code for the module. 
+
+The `source` argument can be treated as a URL, or in special cases you can prefix with actions such as `git::` or `s3::`. If your module is local, you can also pass in a path.
+
+When using modules from the Terraform registry, you can reference the `registry source address` like you would with a provider. `<NAMESPACE>/<NAME>/<PROVIDER>`.
+
+#### **Variable scope within modules/child modules**
+
+The root module variables are set using the CLI, environment variables and variable files. 
+
+When passing variables into the child modules, the calling module passes the variables in using the `module` block.
+
+The outputs defined by the child module will then be accessible in the calling module.
 
 ## Exam Objectives / Testing
 
 <details>
 <summary>Contrast and use different module source options including the public Terraform Module Registry</summary>
 
-- Nested list
-  - with sub-items
+- All `module` blocks require a source argument
+- This source argument can be a local path, a URL or a special format for module providers like `git`, `s3` buckets and `svn`
+- When using a module from the Terraform public registry, you use the format `<NAMESPACE>/<NAME>/<PROVIDER>`, which is very similar to a `source address` for a provider
 </details>
 
 <details>
 <summary>Interact with module inputs and outputs</summary>
 
-- Nested list
-  - with sub-items
+- When defining a `module` block, you need to pass in the `source` argument and the inputs required for that module
+- The inputs for that module are decided by variables that are used within the `child module`, and are then defined when passed in as input by the calling module
+- When `terraform apply` is run, the module will have output that it defines that can then be used by the calling module
 </details>
 
 <details>
 <summary>Describe variable scope within modules/child modules</summary>
 
-- Nested list
-  - with sub-items
+- The root module variables are set using the CLI, environment variables and variable files
+- When passing variables into the child modules, the calling module passes the variables in using the `module` block, these variables are then used within the scope of the child module
 </details>
 
 <details>
 <summary>Set module version</summary>
 
-- Nested list
-  - with sub-items
+- When using remote modules, it's recommended that you set the version you're using by passing the `version` argument into the `module`
 </details>
