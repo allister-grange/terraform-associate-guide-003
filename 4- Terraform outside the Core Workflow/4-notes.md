@@ -96,6 +96,7 @@ To persist logs you can set the `TF_LOG_PATH`.
 
 - You should enable logging when you want to debug an issue that you're having
 - You can set the logging level using the environment variable `TF_LOG`
+- The debugging logs are outputted to `stderr`
 </details>
 
 

@@ -21,7 +21,7 @@ Within each folder there will be a few different resources
 
 ### How the notes are organized
 
-I am following along closely with the **Exam objectives** found [here](https://www.hashicorp.com/certification/terraform-associate). This way you're not wasting time learning what isn't included on the exams.
+I am following along closely with the **Exam objectives** found [here](https://www.hashicorp.com/certification/terraform-associate). This way you're not wasting time learning what isn't included on the exams, however in some cases I may have additional learning where I wasn't already familiar with the concept.
 
 For each point under a topic I will make a drop down question, along with sub questions so that the topic can be learnt off of my notes. You can then take a look into the `cards.md` file to build up your spaced repetition deck off of the notes. 
 
