@@ -1,5 +1,10 @@
 # Read, generate and modify Configuration
 
+## Reading
+
+## Notes
+
+## Exam Objectives / Testing
 
 
 <details>

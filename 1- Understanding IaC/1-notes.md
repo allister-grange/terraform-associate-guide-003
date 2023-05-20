@@ -1,5 +1,7 @@
 # Understanding IaC
 
+## Reading
+
 [Infrastructure as Code: What Is It? Why Is It Important?](https://www.hashicorp.com/resources/what-is-infrastructure-as-code)
 
 ## Notes

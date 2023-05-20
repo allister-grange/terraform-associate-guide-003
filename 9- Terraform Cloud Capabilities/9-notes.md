@@ -1,6 +1,10 @@
 # Terraform Cloud Capabilities
 
+## Reading
 
+## Notes
+
+## Exam Objectives / Testing
 
 <details>
 <summary>Explain what IaC is</summary>

@@ -1,5 +1,7 @@
 # Terraform Outside of the Core Workflow
 
+## Reading
+
 [Command: state](https://developer.hashicorp.com/terraform/cli/v1.1.x/commands/state)  
 [Manage Resources in Terraform State](https://developer.hashicorp.com/terraform/tutorials/state/state-cli)  
 [Command: import](https://developer.hashicorp.com/terraform/cli/v1.1.x/commands/import)  
