@@ -28,7 +28,7 @@ The `terraform init` command is used to initialize a working directory containin
 
 `terraform init` will configure your backend state configurations if you have them, it will also handle the installation of your child modules and plugins/providers.
 
-The running of `terraform init` will create a dependency versioning lock file for your plugins.
+The running of `terraform init` will create a dependency version lock file for your plugins.
 
 ### **Validating a configuration**
 
@@ -90,15 +90,15 @@ The `terraform fmt` command is used to rewrite Terraform configuration files to 
 <summary>Generate and review an execution plan for Terraform</summary>
 
 - Use `terraform plan` to view the plan
-- If you want a plan on file you run `terraform plan -out=<plan_name>`
-- If you want to read that plan run `terraform show <plan_name>`
+- If you want a plan on file you run `terraform plan -out=<plan_file>`
+- If you want to read that plan run `terraform show <plan_file>`
 </details>
 
 <details>
 <summary>Execute changes to infrastructure with Terraform</summary>
 
 - `terraform apply`
-- If you want to run a specific plan run `terraform apply <plan_name>`
+- If you want to run a specific plan run `terraform apply <plan_file>`
 </details>
 
 <details>
