@@ -2,7 +2,7 @@
 
 What do all `module` blocks require in Terraform? A source argument
 
-What can a source argument be in Terraform? A URL, local path or a registry source address
+What can a source argument be for a module in Terraform? A URL, local path or a registry source address
 
 When importing a module from the Terraform public registry, what do you use as the source? A registry source address `<NAMESPACE>/<NAME>/<PROVIDER>`
 

@@ -2,10 +2,10 @@
 
 ## Reading
 
-[Modules](https://developer.hashicorp.com/terraform/language/modules)
-[Finding and Using Modules](https://developer.hashicorp.com/terraform/registry/modules/use)
-[Input Variables](https://developer.hashicorp.com/terraform/language/values/variables)
-[Module Blocks](https://developer.hashicorp.com/terraform/language/v1.1.x/modules/syntax#accessing-module-output-values)
+[Modules](https://developer.hashicorp.com/terraform/language/modules)  
+[Finding and Using Modules](https://developer.hashicorp.com/terraform/registry/modules/use)  
+[Input Variables](https://developer.hashicorp.com/terraform/language/values/variables)  
+[Module Blocks](https://developer.hashicorp.com/terraform/language/v1.1.x/modules/syntax#accessing-module-output-values)  
 
 ## Notes
 

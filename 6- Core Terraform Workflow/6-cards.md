@@ -14,7 +14,7 @@ What will `terraform init` configure? Backend state configurations, modules and 
 
 What will Terraform build after running `terraform init`? A dependency version lock file for your plugins
 
-How do you validate your Terraform configuration files are syntactically valid and internally consistent? `terraform validate`
+How do you validate that your Terraform configuration files are syntactically valid and internally consistent? `terraform validate`
 
 What command do you use in Terraform to create an execution plan for the changes you are making in your infrastructure? `terraform plan`
 

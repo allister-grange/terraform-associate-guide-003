@@ -2,12 +2,12 @@
 
 ## Reading
 
-[Navigate the core workflow](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-study-003)
-[Command: init](https://developer.hashicorp.com/terraform/cli/v1.1.x/commands/init)
-[Command: validate](https://developer.hashicorp.com/terraform/cli/v1.1.x/commands/validate)
-[Command: plan](https://developer.hashicorp.com/terraform/cli/v1.1.x/commands/plan)
-[Command: apply](https://developer.hashicorp.com/terraform/cli/v1.1.x/commands/apply)
-[Command: destroy](https://developer.hashicorp.com/terraform/cli/v1.1.x/commands/destroy)
+[Navigate the core workflow](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-study-003)  
+[Command: init](https://developer.hashicorp.com/terraform/cli/v1.1.x/commands/init)  
+[Command: validate](https://developer.hashicorp.com/terraform/cli/v1.1.x/commands/validate)  
+[Command: plan](https://developer.hashicorp.com/terraform/cli/v1.1.x/commands/plan)  
+[Command: apply](https://developer.hashicorp.com/terraform/cli/v1.1.x/commands/apply)  
+[Command: destroy](https://developer.hashicorp.com/terraform/cli/v1.1.x/commands/destroy)  
 [Command: fmt](https://developer.hashicorp.com/terraform/cli/v1.1.x/commands/fmt)
 
 ## Notes
