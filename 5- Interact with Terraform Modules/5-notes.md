@@ -59,6 +59,25 @@ variable "image_id" {
 }
 ```
 
+Variables are then used by calling an object named `var`.
+
+```terraform
+resource "aws_instance" "example" {
+  instance_type = "t2.micro"
+  ami           = var.image_id
+}
+```
+
+When defining variables within a `.tfvar` file, you do not need to build the `variable` block, you only need the variable name assignment:
+
+```terraform
+image_id = "ami-abc123"
+availability_zone_names = [
+  "us-east-1a",
+  "us-west-1c",
+]
+```
+
 #### **Module sources**
 
 The `source` for a module tells Terraform where to find the source code for the module. 
@@ -69,11 +88,14 @@ When using modules from the Terraform registry, you can reference the `registry 
 
 #### **Variable scope within modules/child modules**
 
-The root module variables are set using the CLI, environment variables and variable files. 
+The root module variables are set using the CLI, environment variables, variable files or in a Terraform Cloud workspace.
 
 When passing variables into the child modules, the calling module passes the variables in using the `module` block.
 
 The outputs defined by the child module will then be accessible in the calling module.
+
+Terraform will automatically pick up files with the name `terraform.tfvars` or `terraform.tfvars.json`, or files ending in `.auto.tfvars` or `.auto.tfvars.json`
+
 
 ## Exam Objectives / Testing
 
