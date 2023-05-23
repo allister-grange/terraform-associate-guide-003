@@ -111,7 +111,7 @@ variable "username" {
 ```
 
 1) **Environment Variables**  
-You can set the environment variable called TF_VAR_username to populate `var.username`
+You can set the environment variable called `TF_VAR_username` to populate `var.username`
 1) **Encrypted Files** (e.g., KMS, PGP, SOPS)  
 Create a file containing `username: <username>` and then encrypt this file and include it into version control, you can then use a `data` block to read the file into Terraform, then load that into a `locals` variable block and then use it in your `resource` 
 1) **Secret Stores** (e.g., Vault, AWS Secrets manager)  
