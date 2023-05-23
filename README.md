@@ -9,17 +9,14 @@ A guide for studying towards your Terraform Associate Certification (003) ðŸ“š ð
 
 ## Format
 
-### Structure
+### **Structure**
 
-Within each folder there will be a few different resources
+Within each folder there are two different resources:
 
-(insert tree diagram here)
+`n-notes.md` <- cliff notes and questions from the Terraform resources  
+`n-cards.md` <- anki cards built from that resources's topics  
 
-`1-notes.md` <- cliff notes and questions from the Terraform resource  
-`1-code.md` <- coding exercises and examples  
-`1-cards.md` <- personal flashcards that will go into my [Anki](), some people find these personal and don't share them, as they are very tailored to the individual who made them, so take that as you will
-
-### How the notes are organized
+### **How the notes are organized**
 
 I am following along closely with the **Exam objectives** found [here](https://www.hashicorp.com/certification/terraform-associate). This way you're not wasting time learning what isn't included on the exams, however in some cases I may have additional learning where I wasn't already familiar with the concept.
 
@@ -27,10 +24,9 @@ For each point under a topic I will make a drop down question, along with sub qu
 
 Please bear in mind that in the notes I am directly studying towards the **exam objectives** so that I can most efficiently pass the exam. These notes are not exhaustive and do not properly cover the topics/headings that may be associated with them; they are a direct means of passing the Terraform Associate Certification. As such, you may need a basic understanding of Terraform before starting the study guide.
 
-## Motivation
+## Anki Cards
 
-I want to [study in public](). My motivation is twofold. Firstly, I believe I will be more fastidious in my writing if the results of my studying are out there in the open, and secondly I hope that this document can help somebody else wanting to pass the Terraform exam relatively quickly.
-
+The cards that will go into my [Anki](https://ankiweb.net/about) are located at `./terraform-anki-deck.apkg`, some people find these personal and don't share them, as they are very tailored to the individual who made them, so take that as you will. Obviously I'd recommend you make your own, but I am happy to share.
 
 ## [Exam Objectives](https://www.hashicorp.com/certification/terraform-associate)
 
