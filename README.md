@@ -2,10 +2,14 @@
 
 A guide for studying towards your Terraform Associate Certification (003) 📚 📖 🎒
 
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="ac24a5c6-b0dc-42f1-9b36-8b41f2e763e4" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
 ## Links
 
 - [Study guide](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-study-003)
 - [Exam outline](https://www.hashicorp.com/certification/terraform-associate)
+- [Practise exams from Bryan Krausen](https://www.udemy.com/course/terraform-associate-practice-exam)
+- [Anki](https://ankiweb.net/about)
 
 ## Format
 
@@ -24,9 +28,13 @@ For each point under a topic I will make a drop down question, along with sub qu
 
 Please bear in mind that in the notes I am directly studying towards the **exam objectives** so that I can most efficiently pass the exam. These notes are not exhaustive and do not properly cover the topics/headings that may be associated with them; they are a direct means of passing the Terraform Associate Certification. As such, you may need a basic understanding of Terraform before starting the study guide.
 
-## Anki Cards
+## Anki Cards (185 cards)
 
-The cards that will go into my [Anki](https://ankiweb.net/about) are located at `./terraform-anki-deck.apkg`, some people find these personal and don't share them, as they are very tailored to the individual who made them, so take that as you will. Obviously I'd recommend you make your own, but I am happy to share.
+The cards that will go into my [Anki](https://ankiweb.net/about) are located at `./terraform-anki-deck.apkg`, some people find these personal and don't share them, as they are very tailored to the individual who made them, so take that as you will. Obviously I'd recommend you make your own, but I am happy to share. 
+
+## Practise Exams
+
+I would highly recommend that you sit the [practise exams from Bryan Krausen](https://www.udemy.com/course/terraform-associate-practice-exam). The study outlined in this repo took me to an 80% average on his first two practise exams, but by the 5th I was getting 90%+. The practise exams were a close emulation of the real deal. You can find discount codes on [his public repo](https://github.com/btkrausen).
 
 ## [Exam Objectives](https://www.hashicorp.com/certification/terraform-associate)
 
