@@ -35,3 +35,5 @@ Why is `terraform init` not sufficient to test your code? Because it is only int
 When does Terraform validate your providers? When running `terraform init`
 
 What does `terraform apply` do in Terraform? Executes a plan to modify Terraform resources
+
+After executing a `terraform plan`, you notice that a resource has a tilde (~) next to it. What does this mean? The resource will be updated in place

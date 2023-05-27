@@ -35,3 +35,9 @@ What are the three methods of injecting secrets into your Terraform configuratio
 How do you use an environment variable to set a variable value in Terraform? set `TF_VAR_<variable_name>`
 
 What block do you use to download secrets (whether a file or from a vault) to populate your Terraform config with? A `data` block
+
+How do you use a variable in a string in Terraform? `"${var.name}-rest-of-string"`
+
+What is a implicit dependency in Terraform? When two resources rely on each other, but you haven't specified depends on
+
+What is an explicit dependency in Terraform? When you specify the `[depend_on]` argument to a resource

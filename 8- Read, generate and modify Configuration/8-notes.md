@@ -12,7 +12,11 @@
 
 ### **Variables and outputs**
 
-Please refer to [Objective 5 - Interact with Terraform Modules](../5-%20Interact%20with%20Terraform%20Modules/5-notes.md) for examples of defining and using variables and outputs.
+Variables are straightforward in Terraform if you have previous coding experience.
+
+Please refer to [Objective 5 - Interact with Terraform Modules](../5-%20Interact%20with%20Terraform%20Modules/5-notes.md) for examples of defining and using variables and outputs, along with details about their scope.
+
+What was missed in the above section was how to use a variable in a string, which can be done with the following: `"${var.name}-rest-of-string"`.
 
 ### **Resources**
 
@@ -26,6 +30,8 @@ resource "aws_instance" "web" {
 ```
 
 The resource is given a *resource type* and a *name*. The name is used to later reference the resource within the module scope, and the resource type tells the provider what you want to build. The resource type and name together serve as an identifier for a given resource and so must be unique within a module. `<RESOURCE TYPE>.<NAME>.` You can use this access attributes of the built resource with `<RESOURCE TYPE>.<NAME>.<ATTRIBUTE>`.
+
+An *implicit dependency* will be created when a resource references a named value from another resource. If you use the `[depends_on]` variable, you have created an *explicit dependency*. 
 
 ### **Data sources**
 

@@ -63,6 +63,8 @@ To pass in the arguments using a file, `terraform init -backend-config=PATH`. Th
 
 It is important to note if your remote state provider supports *state locking*, which will lock the state file when a `terraform apply` is being run. This keeps your state consistent and helps with collaboration.
 
+To unlock the state manually, you must run the `terraform force-unlock <lock_id>` command.
+
 #### **Backend block and cloud integration in configuration**
 
 Example Azure configuration

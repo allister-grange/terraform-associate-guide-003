@@ -50,6 +50,8 @@ The steps of a plan are as follows:
 
 A common way to use `terraform plan` is to produce a plan file, which can then be selectively executed by `terraform apply` using the `-out=` argument with `terraform apply`. To view the output from this plan in human-readable text when it is on disk you can use the `terraform show` command.
 
+If there is a tilde (~) next to a resource when planning, this means that the resource will be updated in place.
+
 ### **Executing your configuration**
 
 The `terraform apply` command executes the actions proposed in a Terraform plan. If run with no further arguments, it will build an execution plan before prompting you to continue with executing that plan. 

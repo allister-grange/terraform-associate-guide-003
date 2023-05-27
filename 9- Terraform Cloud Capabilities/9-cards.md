@@ -13,3 +13,9 @@ What would you use to create and share private modules for your corporation in T
 What is the name of Terraform's policy enforcer? Sentinel 
 
 After you define policies in Sentinel in Terraform, where do you need to add them? To policy sets on workspaces
+
+To switch workspaces in Terraform, what do you run? `terraform workspace select <workspace_name>`
+
+Will Terraform create a new workspace when you run `terraform workspace select <workspane_name>? No
+
+How do you create a new workspace in Terraform? `terraform workspace new <workspace_name>`

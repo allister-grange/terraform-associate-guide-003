@@ -15,6 +15,8 @@
 
 *Terraform Cloud* is an application that helps teams use Terraform together. It provides solutions for the pain points of using Terraform, such as remote state, resource drift, access control, secrets and more.
 
+Terraform Cloud offers a generous free tier, including the use of workspaces.
+
 #### **Workflow**
 
 When more than one person is working on a Terraform project, you need at minimum to have a remote state solution, and ideally also a CI environment. Terraform Cloud can handle this for you. Terraform Cloud offers *Terraform Cloud Agents* that will run Terraform on your own isolated, private, or on-premises infrastructure, or they can provide cloud services for "remote operations".
@@ -31,6 +33,8 @@ Terraform Cloud manages infrastructure collections with *workspaces* instead of 
 | Variable values         | As `.tfvars` files, as CLI arguments, or in shell environment | In workspace                                                               |
 | State                   | On disk or in remote backend                                  | In workspace                                                               |
 | Credentials and secrets | In shell environment or entered at prompts                    | In workspace, stored as sensitive variables                                |
+
+To switch workspaces in Terraform, you run the `terraform workspace select <workspace_name>` command. Terraform will not create a new workspace when this is run. To create a new workspace, you must run `terraform workspace new <workspace_name>`.
 
 #### **Private Registry**
 

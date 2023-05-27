@@ -31,3 +31,5 @@ What is resource drift in Terraform? When your resources within your cloud provi
 If you suspect that you have resource drift in your Terraform, what should you run? `terraform plan -refresh-only`
 
 After running `terraform plan -refresh-only` and seeing that there have been changes in your resources, what do you need to do? Update your configuration to match the changes
+
+What Terraform command can be used to remove the lock on the state for the current configuration? `terraform force-unlock <lock_id>`

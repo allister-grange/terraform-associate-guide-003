@@ -25,3 +25,5 @@ The root module variables are set using the {{c1::CLI}}, {{c2::environment varia
 How would you automatically load in variables from a file in Terraform? Name the file `terraform.tfvars` or `terraform.tfvars.json`, or files ending in `.auto.tfvars` or `.auto.tfvars.json`
 
 When defining variables in a `.tfvar` file, what is the difference? You don't need to include the `variable` block surrounding the variable
+
+The Terraform get command is used for what? To download and update modules 

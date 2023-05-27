@@ -35,6 +35,8 @@ You must run `terraform init` when adding, removing or modifying modules.
 
 When using public modules from a module registry, it's recommended to pass in a `version` argument into the `module` block. This is not required for local modules. 
 
+To update modules, you can run the `terraform get` command.
+
 #### **Accessing module output values**
 
 The resources defined inside a module are encapsulated, so the calling module cannot access them directly, instead you use *output values* to selectively export values to then be used in the calling module.
@@ -96,6 +98,7 @@ The outputs defined by the child module will then be accessible in the calling m
 
 Terraform will automatically pick up files with the name `terraform.tfvars` or `terraform.tfvars.json`, or files ending in `.auto.tfvars` or `.auto.tfvars.json`
 
+Variables defined within modules will not be accessible by their parent module.
 
 ## Exam Objectives / Testing
 
