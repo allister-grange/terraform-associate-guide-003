@@ -2,14 +2,18 @@
 
 A guide for studying towards your Terraform Associate Certification (003) 📚 📖 🎒
 
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="ac24a5c6-b0dc-42f1-9b36-8b41f2e763e4" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
 ## Links
 
-- [Study guide](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-study-003)
-- [Exam outline](https://www.hashicorp.com/certification/terraform-associate)
-- [Practise exams from Bryan Krausen](https://www.udemy.com/course/terraform-associate-practice-exam)
-- [Anki](https://ankiweb.net/about)
+<div>
+  <img src="./hashicorp-badge.png" alt="terraform badge" style="float: right; width: 180px; margin-top: -30px; margin-right: 20px/>
+
+  - [Study guide](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-study-003)
+  - [Exam outline](https://www.hashicorp.com/certification/terraform-associate)
+  - [Practise exams from Bryan Krausen](https://www.udemy.com/course/terraform-associate-practice-exam)
+  - [Anki](https://ankiweb.net/about)
+</div>
+
+<br />
 
 ## Format
 
